@@ -7,9 +7,9 @@
 
 #include <SPI.h>
 #include <SD.h>
-#include "error.h"
-#include "signal.h"
-#include "data_logger.h"
+#include "src/error.h"
+#include "src/signal.h"
+#include "src/data_logger.h"
 
 //enables/disables some serial output
 #define DEBUG true 
