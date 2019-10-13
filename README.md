@@ -4,6 +4,8 @@ A generic approach to using data loggers to store sensor data. It supports also 
 
 The program retrieves data at a specified interval from attached sensors (sensor initialisation and data retrieval has to be added to arduino-generic-data-logger.ino). This data gets written to an attached sd card data logger.
 
+I can now claim, that this sketch works reliably on a high altitude balloon in > 30,000 m height at around -20 degrees Celsius :).
+
 
 ## LED Debugging
 Also you can add an led (pin is specified in src/led.cpp), on which debugging information will be shown in form of blinking patterns.
